@@ -1,12 +1,12 @@
 import React from "react";
 import Todo from "./Todo";
+import bg from "../../img/bg-tdl.png";
 
 const Home = () => {
   return (
-    <div>
-      <h2>To do List</h2>
+    <section className="background" style={{ backgroundImage: `url(${bg})` }}>
       <Todo />
-    </div>
+    </section>
   );
 };
 
